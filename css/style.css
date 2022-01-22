@@ -1,10 +1,11 @@
-#main{
-  display: inline-flex;;
-  padding-left: 150px;
-
+#main {
+    display: inline-flex;
+    ;
+    padding-left: 150px;
 }
 
-#box1{
+
+/* #box1{
 
     background-color: red;
     width: 300px;
@@ -41,40 +42,43 @@
   }
 
 
-  }
+  } */
 
-
-
-#loading{
-
+#loading {
     width: 150px;
     height: 10px;
     background-color: red;
     animation: linear 10s myanimation;
 }
-@keyframes  myanimation{
-from{
-    width: 150px;
-    height: 10px;
-    background-color: green;
+
+@keyframes myanimation {
+    from {
+        width: 150px;
+        height: 10px;
+        background-color: green;
+    }
+    to {
+        width: 1200px;
+        height: 10px;
+        background-color: yellow;
+    }
 }
-to{
-    width: 1200px;
-    height: 10px;
-    background-color:yellow;
+
+#box1 {
+    background-color: pink;
+    width: 500px;
+    height: 500px;
+    animation: linear 10s rotation;
 }
 
+@keyframes rotation {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* h3{

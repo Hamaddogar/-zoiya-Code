@@ -1,0 +1,98 @@
+#main{
+  display: inline-flex;;
+  padding-left: 150px;
+
+}
+
+#box1{
+
+    background-color: red;
+    width: 300px;
+    height: 300px;
+     margin: 15px;
+     animation: linear 10s myrotate;
+}
+#box2{
+
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    animation: linear 10s myrotate;
+
+}
+
+#box3{
+
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    animation: linear 10s myrotate;
+
+}
+  @keyframes myrotate{
+  from{ 
+      transform: rotate(90deg);
+  }
+  to{
+    transform: rotate(360deg);
+
+  }
+
+
+  }
+
+
+
+#loading{
+
+    width: 150px;
+    height: 10px;
+    background-color: red;
+    animation: linear 10s myanimation;
+}
+@keyframes  myanimation{
+from{
+    width: 150px;
+    height: 10px;
+    background-color: green;
+}
+to{
+    width: 1200px;
+    height: 10px;
+    background-color:yellow;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* h3{
+
+    color: yellow;
+}
+
+.myperra{
+ color: green;
+  font-size: larger;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   ;
+
+    
+}
+#myperra2{
+ color: red;
+ font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+} */
